@@ -40,8 +40,8 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataset sysu --data-dir sysu_dataset_pat
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset regdb --data-dir regdb_dataset_path # for RegDB
 
 # Testing 
-CUDA_VISIBLE_DEVICES=0 python test.py --dataset sysu --data-dir sysu_dataset_path # for SYSU-MM01
-CUDA_VISIBLE_DEVICES=0 python test.py --dataset regdb --data-dir regdb_dataset_path # for RegDB
+CUDA_VISIBLE_DEVICES=0 python test.py --dataset sysu --data-dir sysu_dataset_path --resume-net1 modelname # for SYSU-MM01
+CUDA_VISIBLE_DEVICES=3 python test.py --dataset regdb --data-dir regdb_dataset_path  --resume-net1 modelname # for RegDB
 ```
 
 ## Citation
