@@ -7,8 +7,8 @@ import numpy as np
 def multi_memory_learning_matching(datapath,datasetname):
     if datasetname=='sysu':
         print("Loading SYSU Pseudo-labels")
-        GT_rgb = np.load(datapath+ '/train_rgb_label.npy')
-        GT_ir = np.load(datapath + '/train_ir_label.npy')
+        GT_rgb = np.load(datapath+ '/train_rgb_resized_label.npy')
+        GT_ir = np.load(datapath + '/train_ir_resized_label.npy')
         pseudo_labels_rgb = np.load('./labelfile/SYSU_Baseline_pseudo_labels_rgb.npy')
         pseudo_labels_ir = np.load('./labelfile/SYSU_Baseline_pseudo_labels_ir.npy')
         GT_all_label = np.concatenate((GT_rgb, GT_ir), axis=0)
