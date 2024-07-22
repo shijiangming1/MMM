@@ -38,7 +38,6 @@ CUDA_VISIBLE_DEVICES=0,1 python Baseline.py --dataset regdb --data-dir regdb_dat
 
 
 # Step 2: Train the MMM Model
-python MMLM.py
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset sysu --data-dir sysu_dataset_path # for SYSU-MM01
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset regdb --data-dir regdb_dataset_path # for RegDB
 
