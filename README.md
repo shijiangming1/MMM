@@ -45,6 +45,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataset regdb --data-dir regdb_dataset_p
 CUDA_VISIBLE_DEVICES=0 python test.py --dataset sysu --data-dir sysu_dataset_path --resume-net1 modelname # for SYSU-MM01
 CUDA_VISIBLE_DEVICES=3 python test.py --dataset regdb --data-dir regdb_dataset_path  --resume-net1 modelname # for RegDB
 ```
+You can also download the trained model from the [link](https://drive.google.com/drive/folders/1skvjAKRM5Ok9aFEpMLuMbHE-FQe6WNkL).
 
 ## Citation
 If our work is helpful for your research, please consider citing:
