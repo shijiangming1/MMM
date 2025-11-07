@@ -16,12 +16,13 @@
     <a href="https://scholar.google.com/citations?user=idiP90sAAAAJ&hl=zh-CN&oi=sra" rel="external nofollow noopener" target="_blank"><strong>Yanyun Qu*</strong></a>       
   </p>
 <p align="center">
+<p align="center">
 
   ### 🏛️ Affiliations
 <sup>1</sup> *Shanghai Innovation Institute* <sup>2</sup> *Xiamen University* <sup>3</sup> *East China Normal University*
 
   <a href="https://arxiv.org/pdf/2401.06825" rel="external nofollow noopener" target="_blank">Access the research paper here</a>
-  
+  <p align="center">
 
 ![MMM](framework.png)
 This is an official code implementation of "MMM: Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification".
