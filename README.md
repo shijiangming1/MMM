@@ -18,7 +18,11 @@
 <p align="center">
   <a href="https://arxiv.org/pdf/2401.06825" rel="external nofollow noopener" target="_blank">Access the research paper here</a>
 
+<p align="center">
+  ### 🏛️ Affiliations
+<sup>1</sup> *Shanghai Innovation Institute* <sup>2</sup> *Xiamen University* <sup>3</sup> *East China Normal University*
 
+  
 ![MMM](framework.png)
 This is an official code implementation of "MMM: Multi-Memory Matching for Unsupervised Visible-Infrared Person Re-Identification".
 
